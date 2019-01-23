@@ -6,4 +6,61 @@ html, body{
     height: 500px;
     width: 250px;
     background-color:orange;
+    margin: auto;
+}
+
+#mainScreen{
+    width: 80%;
+    height: 50px;
+    color:black;
+    background-color:red;
+    margin: 0 auto;
+    text-align: right;
+
+}
+
+ul{
+    display: inline-block;
+}
+
+h1{
+    margin:0;
+}
+li{
+    display: inline;
+    width:10px;
+    height: 10px;
+}
+
+.operations{
+    display: inline;
+}
+
+#numbersSection{
+    width: 75%;
+    height: 100px;
+    display: inline-block;
+}
+
+#operationSection{
+    display: inline-block;
+    width: 23%;
+}
+
+#numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 100px);
+    grid-gap:3px;
+}
+
+#operations{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(4, 100px);
+    grid-gap:3px;
+}
+
+.digits, .operations{
+    display: contents;
 }
