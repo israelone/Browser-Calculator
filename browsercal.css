@@ -4,19 +4,25 @@ html, body{
 }
 #calculator{
     height: 500px;
-    width: 250px;
+    width: 310px;
     background-color:orange;
     margin: auto;
+    margin-top:120px;
+}
+
+#keys{
+    margin-top:11px;
 }
 
 #mainScreen{
-    width: 80%;
+    position: relative;
+    width: 90%;
     height: 50px;
     color:black;
     background-color:red;
     margin: 0 auto;
     text-align: right;
-
+    top:13px;
 }
 
 ul{
@@ -25,6 +31,7 @@ ul{
 
 h1{
     margin:0;
+    padding-top: 6px;
 }
 li{
     display: inline;
@@ -45,6 +52,7 @@ li{
 #operationSection{
     display: inline-block;
     width: 23%;
+    
 }
 
 #numbers{
@@ -52,6 +60,7 @@ li{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 100px);
     grid-gap:3px;
+    padding-left:15px;
 }
 
 #operations{
@@ -59,6 +68,8 @@ li{
     grid-template-columns:1fr;
     grid-template-rows: repeat(4, 100px);
     grid-gap:3px;
+    padding-top:15px;
+    padding-right:12px;
 }
 
 .digits, .operations{
