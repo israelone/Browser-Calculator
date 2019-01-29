@@ -39,7 +39,7 @@ li{
     height: 10px;
 }
 
-.operations{
+.operators{
     display: inline;
 }
 
@@ -72,6 +72,6 @@ li{
     padding-right:12px;
 }
 
-.digits, .operations{
+.digits, .operators{
     display: contents;
 }
